@@ -9,3 +9,6 @@ git diff master 工作区和版本库的对比
 git reset HEAD <file.name> 暂存区撤销到工作区
 git checkout -- <file.name> 版本区撤销到工作区
 git commit -m 'log' --amend 把上一次提交撤销回来和此次提交(已提交到暂存区)合并为一次提交
+git rm <file.name> 删除暂存区文件(工作区文件已删除)
+git rm -f <file.name> 删除暂存区和工作区文件
+git rm --cached <file.name> 删除暂存区文件(工作区文件还在)
