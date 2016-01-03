@@ -16,3 +16,4 @@ git checkout commit_id <file.name> 恢复指定文件
 git reset --hard commit_id 恢复指定版本
 git reset --hard HEAD^ 恢复到上一个版本
 git reset --hard HEAD~<num> 恢复到指定版本
+git reflog 查看操作日志
