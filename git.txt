@@ -7,3 +7,5 @@ git diff 工作区和暂存区的对比
 git diff --cached/staged 暂存区和版本库的对比
 git diff master 工作区和版本库的对比
 git reset HEAD <file.name> 暂存区撤销到工作区
+git checkout -- <file.name> 版本区撤销到工作区
+git commit --amend
