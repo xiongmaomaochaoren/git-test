@@ -12,3 +12,7 @@ git commit -m 'log' --amend 把上一次提交撤销回来和此次提交(已提
 git rm <file.name> 删除暂存区文件(工作区文件已删除)
 git rm -f <file.name> 删除暂存区和工作区文件
 git rm --cached <file.name> 删除暂存区文件(工作区文件还在)
+git checkout commit_id <file.name> 恢复指定文件
+git reset --hard commit_id 恢复指定版本
+git reset --hard HEAD^ 恢复到上一个版本
+git reset --hard HEAD~<num> 恢复到指定版本
