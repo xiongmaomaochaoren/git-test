@@ -28,4 +28,8 @@ git branch 查看分支
 git branch <branch_name> 创建分支
 git checkout <branch_nme> 切换分支
 git checkout -b <branch_name> 创建并切换分支
-git merge 合并
+git merge <branch_name> 合并分支到当前分支
+git branch --merged 查看和当前分支合并过的分支
+git branch --no-merged 查看没有合并过的分支
+git branch -d <branch_name> 删除分支（合并后的分支可以删）
+git branch -D <branch_name> 强制删除分支 (包括未合并的)
