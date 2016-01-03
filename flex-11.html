@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.box {
+			width: 200px;
+			height: 200px;
+			background: #ccc;
+			border-radius: 6px;
+			margin: 20px auto;
+			display: flex;
+			display: -webkit-flex;
+			flex-wrap: wrap;
+		}
+		.row {
+			align-items: center;
+		}
+		.item {
+			display: block;
+			width: 20px;
+			height: 20px;
+			background: red;
+			border-radius: 50%;
+		}
+		.row:nth-child(1){
+			justify-content: space-between;
+		}
+		.row:nth-child(1){
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="row">
+			<span class="item"></span>
+			<span class="item"></span>
+			<span class="item"></span>
+		</div>
+		<div class="row">
+			<span class="item"></span>
+		</div>
+	</div>
+</body>
+</html>
