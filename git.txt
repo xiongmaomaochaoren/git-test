@@ -1,0 +1,6 @@
+git add 工作区提交到暂存区
+git commit -m 'log' 暂存区提交到版本库
+git commit -a -m 'log' 工作区提交到版本库
+git diff 工作区和暂存区的对比
+git diff --cached/staged 暂存区和版本库的对比
+git diff master 工作区和版本库的对比
