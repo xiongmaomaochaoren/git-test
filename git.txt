@@ -20,4 +20,12 @@ git reset --hard HEAD~<num> 恢复到指定版本
 git reflog 查看操作日志
 git remote 查看远程仓库名称
 git push <仓库名称> <分支名称> 提交到远程仓库
-git fetch/pull 同步更新代码
+git fetch 同步更新代码 只更新不合并
+   》git diff master origin/master
+   》git merge origin/master
+git pull  同步更新代码 更新并且合并
+git branch 查看分支
+git branch <branch_name> 创建分支
+git checkout <branch_nme> 切换分支
+git checkout -b <branch_name> 创建并切换分支
+git merge 合并
