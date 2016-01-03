@@ -1,3 +1,4 @@
+git config --globel user.name  查看用户名/也可以直接设置
 git clone <url> 克隆远程库
 git stastus 查看状态
 git add 工作区提交到暂存区
@@ -17,3 +18,6 @@ git reset --hard commit_id 恢复指定版本
 git reset --hard HEAD^ 恢复到上一个版本
 git reset --hard HEAD~<num> 恢复到指定版本
 git reflog 查看操作日志
+git remote 查看远程仓库名称
+git push <仓库名称> <分支名称> 提交到远程仓库
+git fetch/pull 同步更新代码
