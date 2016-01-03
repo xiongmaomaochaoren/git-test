@@ -1,4 +1,4 @@
-git clone [url] 克隆远程库
+git clone <url> 克隆远程库
 git stastus 查看状态
 git add 工作区提交到暂存区
 git commit -m 'log' 暂存区提交到版本库
@@ -8,4 +8,4 @@ git diff --cached/staged 暂存区和版本库的对比
 git diff master 工作区和版本库的对比
 git reset HEAD <file.name> 暂存区撤销到工作区
 git checkout -- <file.name> 版本区撤销到工作区
-git commit --amend
+git commit -m 'log' --amend 把上一次提交撤销回来和此次提交(已提交到暂存区)合并为一次提交
